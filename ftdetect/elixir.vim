@@ -1,3 +1,4 @@
+au BufRead,BufNewFile *.eex,*.heex,*.leex,*.sface set filetype=eelixir
 au BufRead,BufNewFile *.lexs set filetype=elixir "File extension used by https://github.com/mhanberg/temple
 au BufRead,BufNewFile * call s:DetectElixir()
 
